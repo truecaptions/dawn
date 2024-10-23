@@ -1,0 +1,14 @@
+To remove the missing data: -
+1. Open the Weka Explorer
+2. Load the dataset.
+Weka → filters → unsupervised → attribute → ReplaceMissingValues.
+
+Data discretization
+Weka→filters→supervised→attribute→Discretize
+
+These are some ways to handle the missing values
+1. Ignore observations of missing values if you are dealing with large datasets and a smaller
+number of records has missing values.
+2. Replace with the most frequent values
+3. Apply classify algorithm to predict
+4. Replace with the mean values
