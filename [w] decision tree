@@ -1,0 +1,20 @@
+Build a Decision Tree
+• Switch to “Classify” tab
+• Select “J48” algorithm (an implementation of C4.5) by – Clicking “Choose” button –
+Selecting classifiers >> trees >> J48 from the Weka tree
+• Invoke classifier by clicking “start” button
+• Clicking the line in front of the “choose” button, opens classifier’s Object Editor, in
+which any parameter can be changed
+- Weka keeps the results of different classifiers in the “Result List” pane.
+
+Classifier Output
+Classifier output includes:
+• Summary of the data set
+• 10-fold cross validation is the default “test (evaluation) mode”
+• A pruned decision tree in textual format
+• A colon (:) introduces the class label assigned to the leaf, followed by number of
+instances reached that leaf
+• Number of leaves and nodes in the decision tree
+• Estimates of the tree’s predictive performance
+• Confusion matrix at the end
+• Some other statistics
