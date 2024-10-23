@@ -1,0 +1,13 @@
+- Switch to “Classify” tab
+- Select “Bayes”– by Clicking “Choose” button – Selecting classifiers >> Bayes >> NaiveBayes
+- Invoke classifier by clicking “start” button
+- Weka keeps the results of different classifiers in the “Result List” pane
+
+Classifier output includes:
+• Summary of the data set
+• Correctly Classified Instances
+• Incorrectly Classified Instances
+• Total Number of Instances
+• Detailed Accuracy By Class
+• Confusion Matrix
+• Some other statistics
